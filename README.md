@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Git Hub](https://github.com/humbl3lalis/huddle_landing_page_with_single_introductory_section.git)
+- Live Site URL: [Vercel](https://huddle-landing-page-with-single-introductory-section-teal.vercel.app/)
 
 ## My process
 
