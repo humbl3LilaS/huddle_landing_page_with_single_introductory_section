@@ -34,7 +34,7 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fz-body);
   color: var(--c-text_white);
-  background: url("./images/bg-mobile.svg") top left / 100% 50% no-repeat var(--c-primary_violet) ;
+  background: url("./images/bg-mobile.svg") top left / 100% 50% no-repeat var(--c-primary_violet);
 }
 
 a {
@@ -81,7 +81,7 @@ ul {
 
 }
 
-.btn:link , .btn:visited {
+.btn:link, .btn:visited {
   width: min(70%, 15rem);
   padding-block: 0.8rem;
   margin-inline: auto;
@@ -90,7 +90,7 @@ ul {
   font-weight: 600;
 
   background-color: #fff;
-  box-shadow: 1px 4px 10px 0 rgba(103,75,175,0.75);
+  box-shadow: 1px 4px 10px 0 rgba(103, 75, 175, 0.75);
 
   color: var(--c-primary_violet);
   font-size: 0.875rem;
@@ -99,13 +99,11 @@ ul {
   transition: all 0.3s ease-out;
 }
 
-.btn:hover, .btn:active{
+.btn:hover, .btn:active {
   background-color: var(--c-primary_magenta);
-  box-shadow: 4px 5px 9px -1px rgba(0,0,0,0.32);
+  box-shadow: 4px 5px 9px -1px rgba(0, 0, 0, 0.32);
   color: var(--c-text_white);
 }
-
-
 
 
 .social-nav_container {
@@ -129,6 +127,10 @@ ul {
   border-color: var(--c-primary_magenta);
 }
 
+.accessibility {
+  display: none;
+}
+
 @media (min-width: 71.25rem) {
   body {
     padding-block: unset;
@@ -136,7 +138,6 @@ ul {
     background: url("./images/bg-desktop.svg") no-repeat center / 100% var(--c-primary_violet);
 
   }
-
 
 
   main {
@@ -174,7 +175,7 @@ ul {
 
   }
 
-  .hero-information_container{
+  .hero-information_container {
     margin-top: 2rem;
   }
 
@@ -188,7 +189,7 @@ ul {
     align-self: end;
   }
 
-  .btn:link, .btn:visited{
+  .btn:link, .btn:visited {
     margin-inline: unset;
   }
 
